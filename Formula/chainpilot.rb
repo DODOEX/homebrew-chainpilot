@@ -1,30 +1,30 @@
 class Chainpilot < Formula
   desc "CLI tool for on-chain DeFi operations on EVM-compatible networks"
   homepage "https://github.com/DODOEX/ChainPilot"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.1.1/chainpilot-macos-aarch64.tar.gz"
-      sha256 "ace606c44ec94504fe094b2a4ed588633cdcfcfcbb098cb7a09c87e3bded8e9a"
+      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.2.0/chainpilot-macos-aarch64.tar.gz"
+      sha256 "5fcb68fd1abfe66a6926ddccd9ba266963883b0948ce9108ee6cb7e07b139660"
     end
 
     on_intel do
-      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.1.1/chainpilot-macos-x86_64.tar.gz"
-      sha256 "690d7a0953e495719d07dcbc955ec52b7e959c505a6467297a8dcd90fa97d144"
+      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.2.0/chainpilot-macos-x86_64.tar.gz"
+      sha256 "69f690499f5c9166c11c3cd6edaa68ec0f0e87e3c5550024d6dd550eb0c93213"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.1.1/chainpilot-linux-aarch64.tar.gz"
-      sha256 "71627487b7e4bc533b5047da45c9cfeeb8370c5297b6b88a90e54817708a9fb3"
+      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.2.0/chainpilot-linux-aarch64.tar.gz"
+      sha256 "6b52c8fa3f9a66941e93c01785f52c41c8e9f8561cae7731670e61f3e3826671"
     end
 
     on_intel do
-      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.1.1/chainpilot-linux-x86_64.tar.gz"
-      sha256 "b688842f46dc67f2e728549926a11d5d86f83e44ab8b5aa6b8b1c24c37139e79"
+      url "https://github.com/DODOEX/ChainPilot/releases/download/v0.2.0/chainpilot-linux-x86_64.tar.gz"
+      sha256 "1b52b7c0cdebc85fcc8090b4b477362a2ee6c36492b55b1431191f0e05e059b9"
     end
   end
 
